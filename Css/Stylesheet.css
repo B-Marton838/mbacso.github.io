@@ -1,6 +1,23 @@
+  .flex-container {
+     display: flex;
+     flex-direction: column;
+     background-color: rgb(221, 65, 18) ;
+     width: 65%
+    }
+
+.flex-container > div {
+        background-color: rgba(9, 67, 241, 0.722);
+        margin: 10 px;
+        padding: 20px;
+        column-gap: 15px;
+        font-size: 1.3em;
+        border-radius: 20px;
+    }
+
+
 body {
     background-color: #1D267D;
-    color: #D4ADFC;
+    color: #e8e3ed;
     font-family: Arial, Helvetica, sans-serif;
     padding: 1em;
     margin: 0;
