@@ -1,13 +1,13 @@
   .flex-container {
      display: flex;
      flex-direction: column;
-     background-color: rgb(221, 65, 18) ;
-     width: 65%
+     background-color: rgb(221, 65, 18);
+     width: 65%;
     }
 
 .flex-container > div {
-        background-color: rgba(9, 67, 241, 0.722);
-        margin: 10 px;
+        background-color: rgb(113, 178, 228);
+        margin: 10px;
         padding: 20px;
         column-gap: 15px;
         font-size: 1.3em;
